@@ -17,7 +17,7 @@
 * Tailblocks
 
 ## Future Opportunity
-* Link user data to the profile to display account information to the user with the capability of editing their private information.
+* Link user data to the profile to display account information so the user has the capability of editing their private information.
 
 ## Screenshots
 ![alt text](public/Images/SvelteCreationForm.png)
