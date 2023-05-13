@@ -1,38 +1,24 @@
-# create-svelte
+# Svelte-Creation-Form
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Description
+    Svelte-Creation-Form is a user creation form bulit with Svelte. Users can sign up and then login into their profile. Svlete-Creation-Form was also built using userbase which gives each user their own Id. Once users sign up they are logged into their profile. Currently every users profile will have a contact form asking them to comment on their experience with creating an account. Whether or not the contact form is filled out each user has the capability of logging out which will then lead them to the login page.
 
-## Creating a project
+## Installation 
+    To use and test the application locally first clone the code. Secondly, once you are in your terminal and with in the root directory of the application run the command 'npm i or npm install' by doing this you install all dependancies.
+    Laslty, (after all dependancies have been installed) remain in the root directory of the application and run 'npm run dev' to start the server. You can now click the localhost:5000 link.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Built with
+* Svelte
+* JavaScript
+* Tailwind CSS
+* HTML
+* Userbase
+* Getform.io
+* Tailblocks
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Future Opportunity
+* Link user data to the profile to display account information so the user has the capability of editing their private information.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Screenshots
+![alt text](public/Images/SvelteCreationForm.png)
+![alt text](public/Images/SvelteCreationForm2.png)
